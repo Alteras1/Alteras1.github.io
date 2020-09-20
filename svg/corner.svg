@@ -1,0 +1,7 @@
+<svg height="0" width="0">
+    <defs>
+        <clipPath id="path">
+            <polygon points="0 25,0 200,200 200,200 0,25 0" />
+        </clipPath>
+    </defs>
+</svg>
