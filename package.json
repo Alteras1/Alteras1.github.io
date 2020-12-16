@@ -1,7 +1,8 @@
 {
-  "name": "alteras1.github.io",
+  "name": "next.js-typescript-sass",
   "version": "0.1.0",
   "private": true,
+  "author": "Steven Chang (Alteras1)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

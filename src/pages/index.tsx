@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 
-import styles from '../styles/Home.module.scss';
-import Title from '../components/Title';
+import styles from 'styles/Home.module.scss';
+import Title from 'components/Title';
 
 const Home: React.FC = () => (
   <div className={styles.container}>
@@ -15,7 +15,7 @@ const Home: React.FC = () => (
       <Title />
 
       <p className={styles.description}>
-        Get started by editing <code>pages/index.js</code>
+        Get started by editing <code>src/pages/index.js</code>
       </p>
 
       <p className={styles.description}>This is not an official starter!</p>
