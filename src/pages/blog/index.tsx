@@ -11,10 +11,10 @@ interface IProps {
   slugs: any[];
 }
 
-const Home: React.FC<IProps> = (prop: IProps) => (
+const blog: React.FC<IProps> = (prop: IProps) => (
   <div className={styles.container}>
     <Head>
-      <title>Alteras1</title>
+      <title>Alteras1: Blog</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
@@ -31,8 +31,6 @@ const Home: React.FC<IProps> = (prop: IProps) => (
         })}
       </div>
     </main>
-
-    <footer className={styles.footer}></footer>
   </div>
 );
 
@@ -45,4 +43,4 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-export default Home;
+export default blog;
